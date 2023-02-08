@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* navbar */
+
+.navbar-brand img {
+  height: 100px;
+  margin-left: 30%;
+}
+
+
+.navbar-nav {
+  margin-left: 55%;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  padding-right: 55px;
+  color: white;
+}
+
+.nav-item {
+  padding-right: 12px;
+}
+
+
+.nav-link:hover {
+  color: black;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 110px;
+
+
+
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image 1.png");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn1 {
+  border: 1px solid #519872;
+  background-color: #519872;
+  color: white;
+  margin: 20px;
+  width: 140px;
+  padding: 5px 10px 5px 10px;
+}
+
+.btn2 {
+  border: 1px solid white;
+  background-color: gray;
+  color: white;
+  width: 160px;
+  padding: 5px 10px 5px 10px;
+}
+
+/* CONTENT */
+
+#content{
+  margin-top: 4%;
+  text-align: center;
+}
+
+.heading1{
+  color: #519872;
+}
+
+.para1{
+  color: black;
+}
+
+
+.change{
+  margin-top: 3%;
+}
+
+.plant1{
+  margin-bottom: 30px;
+}
+
+.plant2{
+  margin-top: 10px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.heading2{
+  color: #519872;
+}
+
+.heading3{
+  color: white;
+}
+
+.para3{
+
+  color: white;
+}
+
+.change1{
+  background-color: #519872;
+  border-radius: 10px;
+}
+
+
+/* OFFERS */
+
+#offer{
+  text-align: center;
+  margin-top: 4%;
+}
+
+.heading4{
+  color: #519872;
+  margin-bottom: 3%;
+}
+
+.heading5{
+  color: #519872;
+  margin-bottom: 3%;
+}
+
+.rechange{
+  color: #03C4A1;
+  margin: 0 30px 0 10px;
+}
+
+.btn3{
+  
+  border: 1px solid #519872;
+  background-color: white;
+  color: #519872;
+  width: 140px;
+  padding: 5px 10px 5px 10px;
+}
+
+.little{
+ padding: 20px 0 20px 0;
+}
+
+
+/* OFFERTWO */
+
+#offertwo{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.lovely{
+  width: 100%;
+  height: auto;
+}
+
+.part1{
+  width: 49%;
+  float: left;
+  
+}
+
+.lovely2{
+  margin-top: 10%;
+  width: 30%;
+  height: auto;
+}
+
+.lovely3{
+  padding-top: 50px;
+  width: 30%;
+  height: auto;
+}
+
+.part2{
+  width: 49%;
+  float: right;
+}
+
+.part3{
+  width: 49%;
+  float: left;
+}
+
+.part4{
+  width: 49%;
+  float: right;
+}
+
+.heading6{
+  margin-top: 5%;
+  color: #519872;
+}
+
+.para5{
+  padding-bottom: 50px;;
+  font-weight: bold;
+}
+
+.para6{
+  font-weight: bold;
+}
+
+
+
+
+/* gallery */
+
+#gallery{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.heading7{
+
+  color: #519872;
+  padding-bottom: 20px;
+
+}
+
+.gallery1{
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.gallery2{
+  
+  width: 100%;
+  height: 60%;
+}
+
+
+
+/* ABOUT US */
+
+#about{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.heading8{
+  color: #519872;
+  padding-bottom: 30px;
+}
+
+.small{
+  float: left;
+}
+
+/* NATURE ONLY */
+
+ #natureonly{
+  margin-top: 8%;
+
+} 
+
+
+#hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nature.png");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heading10{
+  color: #fff;
+  margin-top: 100px;
+  margin-left: 110px;
+  float: left;
+}
+
+.logic{
+  opacity: 0.5;
+  border: 1px border white;
+  background-color: aliceblue;
+  width: 30%;
+  margin-left: 110px;
+  margin-top: 110px;
+}
+
+.btn4{
+   background-color: #519872;
+   color: white;
+   padding: 0 10px;
+}
+
+
+/* BLOGS */
+
+#blog{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.heading11{
+  color: #519872;
+}
+
+.heading12{
+  color: #519872;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.para8{
+  font-weight: bold;
+}
+
+.icon{
+  float: left;
+}
+
+
+/* FINAL */
+
+#final{
+  margin-top: 5%;
+  background-color: #285A43;
+  height: 37vh;
+  text-align: center;
+}
+
+.heading13{
+  color: #fff;
+ padding-top: 60px;
+}
+
+.icon1{
+  color: #fff;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.awes2{
+  color: #fff;
+  position: relative;
+  padding: 15px;
+  display: inline-block;
+  list-style: none;
+
+}
+
+/* FOOTER */
+
+#footer{
+  text-align: center;
+  background-color: black;
+  height: 10vh;
+}
+
+.copyright{
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+
+.patent{
+  color: #fff;
+}
